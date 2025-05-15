@@ -11,7 +11,6 @@ export default function Header() {
   useEffect(() => {
     const handleScroll = () => {
       setHasScrolled(window.scrollY > 32)
-      console.log(scrollY)
     }
 
     window.addEventListener("scroll", handleScroll)
